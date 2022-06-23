@@ -454,11 +454,11 @@
 	{
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"BluePlayerList"
-		"xpos"				"0"
-		"ypos"				"78"
+		"xpos"				"1"
+		"ypos"				"80"
 		"zpos"				"20"
 		"wide"				"288"
-		"tall"				"206"
+		"tall"				"204"
 		"wide_minmode"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -478,10 +478,10 @@
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"RedPlayerList"
 		"xpos"				"292"
-		"ypos"				"78"
+		"ypos"				"80"
 		"zpos"				"20"
 		"wide"				"288"
-		"tall"				"206"
+		"tall"				"204"
 		"wide_minmode"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -701,7 +701,14 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"545"
+			"textAlignment"		"east"
+
+			"pin_to_sibling"		"ServerLabel"
+			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 	}
 	"HorizontalLine"

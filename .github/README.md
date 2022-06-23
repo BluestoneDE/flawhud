@@ -19,16 +19,18 @@
 - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Official Editor](#official-editor)
-- [Help/Support](#help/support)
+- [Support](#support)
 - [CastingEssentials](#castingessentials)
 - [Customizations](#customizations)
-  - [HUD Crosshair](#hud-crosshair)
+  - [Crosshair](#crosshair)
   - [Code Pro Fonts](#code-pro-fonts)
-  - [Home Server](#home-server)
+  - [Favorite Server](#favorite-server)
   - [Transparent Viewmodels](#transparent-viewmodels)
   - [Streamer Mode](#streamer-mode)
+  - [Competitive Closed Captions](#competitive-closed-captions)
 - [Acknowledgements](#acknowledgements)
-- [Sponsors](#sponsors)
+  - [Sponsors](#sponsors)
+  - [Localizers](#localizers)
 
 <!-- INSTALLATION -->
 ## Installation
@@ -40,7 +42,7 @@
 For easier installation and customization, download the [**TF2HUD Editor**][editor-link]. This tool handles all below customization options as well as other custom HUDs. For additional information, read the project documentation at https://www.editor.criticalflaw.ca/
 
 <!-- SUPPORT -->
-## Help/Support
+## Support
 If you need help, found a bug or have a suggestion, [open a support ticket on GitHub][issues-link] or [join our Discord server][discord-link].
 
 <!-- CASTINGESSENTIALS -->
@@ -50,17 +52,21 @@ If you need help, found a bug or have a suggestion, [open a support ticket on Gi
 <!-- CUSTOMIZATIONS -->
 ## Customizations
 
-### HUD Crosshair
+### Crosshair
 Custom crosshairs are disabled by default. To enable them, open `flawhud\scripts\hudlayout.res` and under **CustomCrosshair** change the values of **visible** and **enabled** from 0 to 1.
 
 To change the style, under **CustomCrosshair** change the value of **labelText** to the corresponding letter below.
 ![banner](https://raw.githubusercontent.com/Hypnootize/TF2-Hud-Crosshairs/master/crosshairs/TF2Crosshairs.png)
 
+To change the color of crosshair or hitmarker, open `flawhud\resource\scheme\clientscheme_colors.res` and change the values of **Crosshair** or **CrosshairDamage** respectively.
+
+To disable the hitmarker, open `flawhud\scripts\hudanimations_manifest.txt` and comment out the line containing **scripts/hudanimations_hitmarker.txt**.
+
 ### Code Pro Fonts
 To enable the Code Pro fonts, open `flawhud\resource\clientscheme.res` in a text editor and add **_pro** as instructed in the file.
 
 ### Favorite Server
-To setup a shortcut to your favorite server, open `flawhud\resource\gamemenu.res` and under **ServerButton** enter the connection string to your preferred server as instructed.
+To setup a shortcut to your favorite server, open `flawhud\resource\gamemenu.res` and under **HomeServerButton** enter the connection string to your preferred server as instructed.
 
 ### Transparent Viewmodels
 To enable transparent viewmodels, you must first install the mastercomfig's Transparent Viewmodels addon or update your graphics configs to work with this feature. Then open `flawhud\scripts\hudlayout.res` and under **TransparentViewmodels** change the values of **visible** and **enabled** from 0 to 1. For more information, read the the TeamFortress.TV [thread][tftv-link].
@@ -68,36 +74,45 @@ To enable transparent viewmodels, you must first install the mastercomfig's Tran
 ### Streamer Mode
 For extra protection against stream snipers and DDoS attacks while live streaming, enable Streamer Mode in the **HUD Options**. This feature hides player names and other information that could let the viewers know where and who you are playing with.
 
+### Competitive Closed Captions
+Currently, there are only two supported languages for closed captions. These are English and Brazilian Portuguese. To enable competitive captions for other languages, type either `cc_lang english` or `cc_lang brazilian` in the developer console.
+
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * **HUD Development Help**: N0kk and Wiethoofd
 * **Playtesting**: Yotts, Cat, SleepingBear and Strife
-* **Main Menu Background**: sevin
-* **Crosshair and Icon Packs**: Hypnootize
-* **CastingEssentials Support**: pazer
+* **Main Menu Backgrounds**: sevin
+* **Crosshairs and Icons**: Hypnootize
+* **CastingEssentials**: pazer and dalegaard
 * **Competitive Closed Captions**: clovervidia
 * **Soldier Tribute Image**: uberchain
 
 <!-- SPONSORS -->
-## Sponsors
+### Sponsors
 Thank you to everyone who supported this project through [GitHub Sponsors][sponsors-link] or [PayPal][paypal-link].
 * Admiral Bread Crumbs
 * berry-jordan
 * DrummingFish
 * Kybrid96
 * Owlgod
+* LazarusDemitri
 * pazer
 * Revan
 * saturncaine
 * TemmieKaz
 * Zeesastrous
 
+<!-- LOCALIZERS -->
+### Localizers
+* **Brazilian**: Tiagoquix
+* **French**: DimitriDR
+
 <!-- LINKS -->
 [download-link]: https://github.com/CriticalFlaw/flawhud/archive/refs/heads/master.zip
 [crosshairs-link]: https://raw.githubusercontent.com/Hypnootize/TF2-Hud-Crosshairs/master/crosshairs/TF2Crosshairs.png
 [paypal-link]: https://www.paypal.com/donate?business=8BHEWCPRMDDEJ&item_name=FlawHUD+Donation
 [tftv-link]: https://www.teamfortress.tv/21928/transparent-viewmodels-in-any-hud
-[ce-release]: https://github.com/PazerOP/CastingEssentials/releases/latest
+[ce-release]: https://github.com/dalegaard/CastingEssentials/releases/latest
 [ce-wiki]: https://github.com/PazerOP/CastingEssentials/wiki/HUD-Mods
 [sponsors-link]: https://github.com/sponsors/CriticalFlaw
 [editor-link]: https://github.com/CriticalFlaw/TF2HUD.Editor/releases/latest

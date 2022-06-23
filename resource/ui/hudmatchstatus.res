@@ -34,7 +34,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 		"proportionaltoparent"	"1"
 	}
 	"CountdownLabelShadow"
@@ -392,7 +392,7 @@
 				"fieldName"		"HealthIcon"
 				"xpos"			"9999"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 			}
 			"ReadyBG"
 			{
@@ -400,7 +400,7 @@
 				"fieldName"		"ReadyBG"
 				"xpos"			"9999"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 			}
 			"ReadyImage"
 			{
@@ -408,7 +408,7 @@
 				"fieldName"		"ReadyImage"
 				"xpos"			"9999"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 			}
 			"respawntime"
 			{
