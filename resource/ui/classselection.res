@@ -40,7 +40,7 @@
 		"textAlignment"				"center"
 		"Command"					"joinclass scout"
 		"Default"					"0"
-		"font"						"FontBold20"
+		"font"						"FontBold10"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -104,7 +104,7 @@
 		"textAlignment"				"center"
 		"Command"					"joinclass soldier"
 		"Default"					"0"
-		"font"						"FontBold20"
+		"font"						"FontBold10"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -172,7 +172,7 @@
 		"textAlignment"				"center"
 		"Command"					"joinclass pyro"
 		"Default"					"0"
-		"font"						"FontBold20"
+		"font"						"FontBold10"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -240,7 +240,7 @@
 		"textAlignment"				"center"
 		"Command"					"joinclass demoman"
 		"Default"					"0"
-		"font"						"FontBold20"
+		"font"						"FontBold10"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -308,7 +308,7 @@
 		"textAlignment"				"center"
 		"Command"					"joinclass heavyweapons"
 		"Default"					"0"
-		"font"						"FontBold20"
+		"font"						"FontBold10"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -376,7 +376,7 @@
 		"textAlignment"				"center"
 		"Command"					"joinclass engineer"
 		"Default"					"0"
-		"font"						"FontBold20"
+		"font"						"FontBold10"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -444,7 +444,7 @@
 		"textAlignment"				"center"
 		"Command"					"joinclass medic"
 		"Default"					"0"
-		"font"						"FontBold20"
+		"font"						"FontBold10"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -512,7 +512,7 @@
 		"textAlignment"				"center"
 		"Command"					"joinclass sniper"
 		"Default"					"0"
-		"font"						"FontBold20"
+		"font"						"FontBold10"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
@@ -580,7 +580,7 @@
 		"textAlignment"				"center"
 		"Command"					"joinclass spy"
 		"Default"					"0"
-		"font"						"FontBold20"
+		"font"						"FontBold10"
 		"paintbackground"			"1"
 		
 		"defaultBgColor_override" 	"TransparentBlack"
