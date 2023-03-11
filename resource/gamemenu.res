@@ -90,14 +90,20 @@
 	}
 	"QuestLogButton"
 	{
-		"label"			"r"
+		"label"			"@"
 		"command"		"questlog"
 		"tooltip"		"#TF_QuestMap_Intro_Title"
 	}
 	"MOTD_ShowButtonPanel"
 	{
-		"label"			"w"
+		"label"			"r"
 		"command"		"motd_show"
+		"tooltip"		"#TF_MOTD_Title"
+	}
+	"ShowToolsButton"
+	{
+		"label"			"w"
+		"command"		"engine toggle cl_mainmenu_safemode"
 		"tooltip"		"#TF_OptionCategory_HUD"
 	}
 	"HomeServerButton"
@@ -105,5 +111,10 @@
 		"label"			"p"
 		"command"		"engine sv_allow_point_servercommand always; sv_cheats 1; map tr_walkway_rc2"
 		"tooltip"		"Load Walkway"
+	"ReloadHUDButton"
+	{
+		"label"			"."
+		"command"		"engine record fix;stop;snd_restart;vgui_cache_res_files 0;hud_reloadscheme"
+		"tooltip"		"#FH_refresh_hud"
 	}
 }

@@ -21,16 +21,11 @@
 
 	"StreakIcon"
 	{
-		"xpos"				"2"
-		"visible"			"1"
-		"enabled"			"1"
 		"labelText"			"\"
 	}
 
 	"StreakIconShadow"
 	{
-		"visible"			"1"
-		"enabled"			"1"
 		"labelText"			"\"
 	}
 }

@@ -26,7 +26,7 @@
 			"zpos"					"2"
 			"wide"					"f0"
 			"tall"					"f0"
-			"font"					"CustomIcons"
+			"font"					"SmallIcons"
 			"labelText"				"Y"
 			"enabled"				"1"
 			"visible"				"1"
@@ -38,41 +38,57 @@
 		}
 	}
 
-	"HudsLink"
+	"ComfigLink"
 	{
 		"ControlName"			"EditablePanel"
-		"fieldName"				"HudsLink"
+		"fieldName"				"ComfigLink"
 		"xpos"					"0"
 		"ypos"					"5"
 		"zpos"					"1"
 		"wide"					"18"
 		"tall"					"18"
 		"visible"				"1"
-		"bgcolor_override"		"83 152 243 255"
+		"bgcolor_override"		"67 147 136 255"
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"		"GitLink"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 
-		"HudsUrl"
+		"ComfigUrl"
 		{
 			"ControlName"			"URLLabel"
-			"fieldName"				"HudsUrl"
+			"fieldName"				"ComfigUrl"
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"2"
 			"wide"					"f0"
 			"tall"					"f0"
 			"font"					"FontBold18"
-			"labelText"				"H"
+			"labelText"				""
 			"enabled"				"1"
 			"visible"				"1"
 			"paintBackground"		"0"
 			"textAlignment"			"center"
 			"fgcolor_override"		"HudWhite"
 			"proportionaltoparent"	"1"
-			"urlText"				"https://huds.tf/site/s-FlawHUD"
+			"urlText"				"https://comfig.app/huds/page/flawhud/"
+		}
+
+		"ComfigLogo"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"ComfigLogo"
+			"xpos"					"cs-0.5"
+			"ypos"					"cs-0.5"
+			"wide"					"17"
+			"tall"					"17"
+			"proportionaltoparent"	"1"
+			"visible"				"1"
+			"enabled"				"1"
+			"image"					"replay/thumbnails/comfig"
+			"scaleimage"			"1"
+			"alpha"					"120"
 		}
 	}
 
@@ -89,7 +105,7 @@
 		"bgcolor_override"		"88 101 242 255"
 		"PaintBackgroundType"	"2"
 
-		"pin_to_sibling"		"HudsLink"
+		"pin_to_sibling"		"ComfigLink"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 
@@ -102,7 +118,7 @@
 			"zpos"					"2"
 			"wide"					"f0"
 			"tall"					"f0"
-			"font"					"CustomIcons"
+			"font"					"SmallIcons"
 			"labelText"				"Z"
 			"enabled"				"1"
 			"visible"				"1"
@@ -158,7 +174,7 @@
 			"zpos"					"2"
 			"wide"					"f0"
 			"tall"					"f0"
-			"font"					"CustomIcons"
+			"font"					"SmallIcons"
 			"labelText"				""
 			"enabled"				"1"
 			"visible"				"1"
@@ -212,7 +228,7 @@
 			"zpos"					"2"
 			"wide"					"f0"
 			"tall"					"f0"
-			"font"					"CustomIcons"
+			"font"					"SmallIcons"
 			"labelText"				""
 			"enabled"				"1"
 			"visible"				"1"
@@ -243,13 +259,17 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldname"				"BGPanel"
-		"xpos"					"rs1+10"
-		"ypos"					"205"
+		"xpos"					"0"
+		"ypos"					"10"
 		"zpos"					"-1"
 		"wide"					"45"
-		"tall"					"125"
+		"tall"					"128"
 		"visible"				"1"
 		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"		"BGPanel5"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
 }

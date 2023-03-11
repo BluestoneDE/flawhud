@@ -71,7 +71,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabel"
 		"font"				"FontRegular12"
-		"font_minmode"		"FontIcons12"
+		"font_minmode"		"SmallerIcons"
 		"xpos"				"47"
 		"ypos"				"15"
 		"zpos"				"1"
@@ -92,7 +92,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabelShadow"
 		"font"				"FontRegular12"
-		"font_minmode"		"FontIcons12"
+		"font_minmode"		"SmallerIcons"
 		"xpos"				"-1"
 		"ypos"				"-1"
 		"zpos"				"1"
@@ -106,7 +106,7 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"ShadowBlack"
+		"fgcolor_override"	"Black"
 		"pin_to_sibling"	"DisguiseNameLabel"
 	}
 
@@ -147,7 +147,7 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"ShadowBlack"
+		"fgcolor_override"	"Black"
 		"pin_to_sibling"	"WeaponNameLabel"
 	}
 

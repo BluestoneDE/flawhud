@@ -16,7 +16,6 @@
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Official Editor](#official-editor)
 - [Support](#support)
@@ -34,7 +33,7 @@
 
 <!-- INSTALLATION -->
 ## Installation
-1. Download the latest version of flawhud on [GitHub][download-link] or on the [HUDS.tf](https://huds.tf/site/s-FlawHUD).
+1. Download the latest version of flawhud on [GitHub][download-link], [mastercomfig](https://mastercomfig.com/huds/page/flawhud/) or [tf2huds.dev](https://tf2huds.dev/hud/FlawHUD).
 2. Extract the downloaded file contents into your `steamapps\common\Team Fortress 2\tf\custom` directory.
 
 <!-- HUD EDITOR -->
@@ -66,7 +65,7 @@ To disable the hitmarker, open `flawhud\scripts\hudanimations_manifest.txt` and 
 To enable the Code Pro fonts, open `flawhud\resource\clientscheme.res` in a text editor and add **_pro** as instructed in the file.
 
 ### Favorite Server
-To setup a shortcut to your favorite server, open `flawhud\resource\gamemenu.res` and under **HomeServerButton** enter the connection string to your preferred server as instructed.
+To set up a shortcut to your favorite server, open `flawhud\resource\gamemenu.res` and under **HomeServerButton** enter the connection string to your preferred server as instructed.
 
 ### Transparent Viewmodels
 To enable transparent viewmodels, you must first install the mastercomfig's Transparent Viewmodels addon or update your graphics configs to work with this feature. Then open `flawhud\scripts\hudlayout.res` and under **TransparentViewmodels** change the values of **visible** and **enabled** from 0 to 1. For more information, read the the TeamFortress.TV [thread][tftv-link].
@@ -86,12 +85,14 @@ Currently, there are only two supported languages for closed captions. These are
 * **CastingEssentials**: pazer and dalegaard
 * **Competitive Closed Captions**: clovervidia
 * **Soldier Tribute Image**: uberchain
+* **Updated Team Fortress Logo**: Metisz
 
 <!-- SPONSORS -->
 ### Sponsors
 Thank you to everyone who supported this project through [GitHub Sponsors][sponsors-link] or [PayPal][paypal-link].
 * Admiral Bread Crumbs
 * berry-jordan
+* ca7x3
 * DrummingFish
 * Kybrid96
 * Owlgod
@@ -104,7 +105,7 @@ Thank you to everyone who supported this project through [GitHub Sponsors][spons
 
 <!-- LOCALIZERS -->
 ### Localizers
-* **Brazilian**: Tiagoquix
+* **Brazilian Portuguese**: Tiagoquix
 * **French**: DimitriDR
 
 <!-- LINKS -->
