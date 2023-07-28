@@ -6,8 +6,8 @@
 		"fieldName"			"scoreinfo"
 		"xpos"				"cs-0.5"
 		"ypos"				"31"
-		"wide"				"585"
-		"tall"				"360"
+		"wide"				"f0"
+		"tall"				"f0"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -24,11 +24,6 @@
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
 		"medal_width_minmode"	 "0"
-
-		if_mvm
-		{
-			"tall"				"380"
-		}
 	}
 
 	"BlueLine"
@@ -64,8 +59,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"BlueBG"
-		"xpos"				"0"
-		"ypos"				"30"
+		"xpos"				"c-291"
+		"ypos"				"100"
 		"zpos"				"-1"
 		"wide"				"290"
 		"tall"				"35"
@@ -73,9 +68,10 @@
 		"enabled"			"1"
 		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
-
-		 if_mvm
+		
+		if_mvm
  		{
+			"ypos"				"100"	// This is needed for the 32-player scoreboard customization available in the HUD Editor.
  			"visible"			"0"
  		}
 	}
@@ -169,9 +165,9 @@
 		"labelText"			"%blueteamplayercount%"
 		"textAlignment"		"west"
 		"xpos"				"0"
-		"ypos"				"1"
+		"ypos"				"0"
 		"wide"				"210"
-		"tall"				"10"
+		"tall"				"12"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -331,9 +327,9 @@
 		"labelText"			"%redteamplayercount%"
 		"textAlignment"		"east"
 		"xpos"				"0"
-		"ypos"				"1"
+		"ypos"				"0"
 		"wide"				"210"
-		"tall"				"10"
+		"tall"				"12"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -372,7 +368,7 @@
 		if_mvm
 		{
 			"xpos"				"-25"
-			"ypos"				"13"
+			"ypos"				"-55"
 			"visible"			"0"
 		}
 	}
@@ -452,8 +448,8 @@
 	{
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"BluePlayerList"
-		"xpos"				"1"
-		"ypos"				"80"
+		"xpos"				"c-290"
+		"ypos"				"c-88"
 		"zpos"				"20"
 		"wide"				"288"
 		"tall"				"204"
@@ -475,8 +471,8 @@
 	{
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"RedPlayerList"
-		"xpos"				"292"
-		"ypos"				"80"
+		"xpos"				"c+2"
+		"ypos"				"c-88"
 		"zpos"				"20"
 		"wide"				"288"
 		"tall"				"204"
@@ -544,10 +540,12 @@
 
 		if_mvm
 		{
-			"xpos"				"-305"
-			"ypos"				"33"
+			"ypos"				"165"
 			"wide"				"270"
 			"tall"				"132"
+			"pin_to_sibling"		"mapname"
+			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 		}
 	}
 	"SpectatorsInQueue"
@@ -558,7 +556,7 @@
 		"labelText"			"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"				"-2"
-		"ypos"				"25"
+		"ypos"				"30"
 		"zpos"				"4"
 		"wide"				"500"
 		"wide_minmode"		"0"
@@ -601,25 +599,41 @@
 			"xpos"				"9999"
 		}
 	}
-
+	
 	"classmodelpanel"
 	{
-		"ControlName"	"CTFPlayerModelPanel"
-		"fieldName"		"classmodelpanel"
-		"xpos"			"9999"
-		"ypos"			"280"
-		"zpos"			"10"
-		"wide"			"70"
-		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fov"			"12"
-		"allow_rot"		"1"
+		"ControlName"		"CTFPlayerModelPanel"
+		"fieldName"			"classmodelpanel"
+		"xpos"				"0"
+		"ypos"				"r300"
+		"zpos"				"2"
+		"wide"				"150"
+		"tall"				"300"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fov"				"13"
+		"allow_rot"			"1"
 		"render_texture"	"0"
-		"disable_speak_event"	"1"
+		
+		"model"
+		{
+			"force_pos"			"1"
+			"angles_x" 			"0"
+			"angles_y" 			"200"
+			"angles_z" 			"0"
+			"origin_x" 			"200"
+			"origin_y" 			"2"
+			"origin_z" 			"-80"
+			"frame_origin_x"	"0"
+			"frame_origin_y"	"0"
+			"frame_origin_z"	"0"
+			"spotlight" 		"1"
+			"modelname"			""
+		}
 	}
+	
 	"PlayerNameBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -2224,7 +2238,7 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"25"
+		"xpos"				"c-266"
 		"ypos"				"0"
 		"zpos"				"10"
 		"wide"				"f0"

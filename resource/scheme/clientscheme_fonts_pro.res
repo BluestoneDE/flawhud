@@ -221,6 +221,32 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"ScanlineShadow"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-Bold"
+				"tall"			"50"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+				"scanlines"		"2"
+				"blur"			"3"
+			}
+		}
+		"ScanlineShadowSmall"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-Bold"
+				"tall"			"22"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+				"scanlines"		"2"
+				"blur"			"3"
+			}
+		}
 
 		// DEFAULT
 		"Default"

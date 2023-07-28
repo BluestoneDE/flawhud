@@ -69,7 +69,11 @@
 
 		"consume_mode"
 		{
-			"ypos"			"0"
+			"xpos"			"20"
+			"wide"			"o1.5"
+			"tall"			"p0.5"
+			"fov"					"60"
+			"proportionaltoparent"	"0"
 		}
 
 		"model"
@@ -143,7 +147,7 @@
 		"consume_mode"
 		{
 			"xpos"			"cs-0.5"
-			"ypos"			"r100"
+			"ypos"			"r75"
 		}
 
 		"ButtonSettings"
@@ -226,7 +230,7 @@
 		"xpos"			"cs0.3"
 		"ypos"			"p.2"
 		"wide"			"250"
-		"tall"			"200"
+		"tall"			"190"
 		"zpos"			"100"
 		"visible"		"1"
 		"bgcolor_override"	"DarkerGrey"
@@ -242,13 +246,14 @@
 		}
 		"fixed_paintkit"
 		{
-			"tall"			"100"
+			"tall"			"125"
 			"visible"		"1"
 		}
 		"consume_mode"
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"r80"
+			"bgcolor_override"	"Transparent"
 		}
 
 		"DebugButton"
@@ -396,6 +401,11 @@
 				"visible"	"0"
 			}
 
+			"consume_mode"
+			{
+				"ypos"			"25"
+			}
+
 			"fgcolor_override"	"TanLight"
 			"bgcolor_override"	"DarkGrey"
 			"disabledFgColor_override" "TanLight"
@@ -435,6 +445,7 @@
 
 			"consume_mode"
 			{
+				"ypos"			"25"
 				"labelText"		"#TF_ItemPreview_RedeemItem"
 			}
 		}
@@ -453,7 +464,7 @@
 
 			"zpos"			"1"
 			"wide"			"235"
-			"tall"			"30"
+			"tall"			"20"
 			"numticks"		"4"
 			"rangemin"		"1"
 			"rangemax"		"5"
@@ -513,7 +524,7 @@
 			"fieldName"		"NewSeedButton"
 			"font"			"FontBold14"
 			"xpos"			"8"
-			"ypos"			"125"
+			"ypos"			"115"
 
 			"fixed_item"
 			{
@@ -522,7 +533,7 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"		"40"
+				"ypos"		"55"
 			}
 
 			"zpos"			"10"
@@ -553,7 +564,7 @@
 			"ControlName"		"TextEntry"
 			"fieldName"			"SeedTextEntry"
 			"xpos"				"8"
-			"ypos"				"100"
+			"ypos"				"90"
 
 			"fixed_item"
 			{
@@ -562,7 +573,7 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"			"20"
+				"ypos"			"30"
 			}
 
 			"zpos"				"10"
@@ -593,7 +604,7 @@
 			"fieldName"		"MarketButton"
 			"font"			"FontBold14"
 			"xpos"			"8"
-			"ypos"			"160"
+			"ypos"			"150"
 
 			"fixed_item"
 			{
@@ -602,12 +613,12 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"		"70"
+				"ypos"		"90"
 			}
 
 			"consume_mode"
 			{
-				"ypos"		"r60"
+				"ypos"		"r80"
 			}
 
 			"zpos"			"100"

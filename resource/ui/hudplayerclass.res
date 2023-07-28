@@ -19,7 +19,7 @@
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"25"
-		"ypos"			"r127"
+		"ypos"			"r75"
 		"zpos"			"2"
 		"wide"			"75"
 		"tall"			"75"
@@ -66,8 +66,8 @@
 	{
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"			"classmodelpanel"
-		"xpos"				"0"		//"c170"
-		"ypos"				"r252"	//"r200"
+		"xpos"				"0"
+		"ypos"				"r200"
 		"zpos"				"2"
 		"wide"				"150"
 		"tall"				"200"
@@ -86,7 +86,7 @@
 			"angles_y" 			"200"
 			"angles_z" 			"0"
 			"origin_x" 			"200"
-			"origin_y" 			"2"
+			"origin_y" 			"10"
 			"origin_z" 			"-80"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
@@ -100,13 +100,11 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CarryingWeapon"
-		"xpos"					"200"
-		"ypos"					"r27"
+		"xpos"					"0"
+		"ypos"					"r19"
 		"zpos"					"100"
 		"wide"					"500"
-		"tall"	 				"28"
-		"bgcolor_override"		"Transparent"
-		"PaintBackgroundType"	"2"
+		"tall"	 				"20"
 
 		"CarryingBackground"
 		{
@@ -130,16 +128,16 @@
 
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 
 		"CarryingLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
-			"font"				"ReplayBrowserSmallest"
-			"xpos"				"5"
+			"font"				"FontRegular15"
+			"xpos"				"15"
 			"ypos"				"3"
 			"zpos"				"1"
 			"wide"				"200"
@@ -212,7 +210,7 @@
 		"wide"				"50"
 		"tall"				"12"
 		"visible"			"0"		// Change to 1 to enable
-		"enabled"			"0"		// Change to 1 to enable
+		"enabled"			"1"
 		"image"				"replay/thumbnails/numbers"
 		"scaleImage"		"1"
 	}
