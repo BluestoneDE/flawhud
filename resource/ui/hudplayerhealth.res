@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-250"
+		"xpos"			"c-270"
 		"ypos"			"c85"
 		"zpos"			"2"
 		"wide"			"150"
