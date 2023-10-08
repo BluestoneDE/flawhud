@@ -2,9 +2,9 @@
 {
 	"HomeServerButton"
 	{
-		"label"			"}"
-		"command"		"engine clear; showconsole; echo To setup a shortcut to your favorite server, open flawhud/resource/gamemenu.res and under 'HomeServerButton' replace the value of 'command' with the connection string to your server. Example: engine connect 192.168.1.10:27015; password hello"
-		"tooltip"		"#FH_favorite_server"
+		"label"			"p"
+		"command"		"engine sv_allow_point_servercommand always; sv_cheats 1; map tr_walkway_rc2; showconsole"
+		"tooltip"		"Load Walkway"
 	}
 	"TF2SettingsButton"
 	{
@@ -105,12 +105,6 @@
 		"label"			"w"
 		"command"		"engine toggle cl_mainmenu_safemode"
 		"tooltip"		"#TF_OptionCategory_HUD"
-	}
-	"HomeServerButton"
-	{
-		"label"			"p"
-		"command"		"engine sv_allow_point_servercommand always; sv_cheats 1; map tr_walkway_rc2"
-		"tooltip"		"Load Walkway"
 	}
 	"ReloadHUDButton"
 	{
