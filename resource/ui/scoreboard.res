@@ -202,7 +202,7 @@
 		"autoResize"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"HUDRedTeam"
+		"bgcolor_override"		"RedTeam"
 
 		"pin_to_sibling"		"RedBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -277,7 +277,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"HUDRedTeam"
+		"fgcolor"			"RedTeam"
 		"TextInsetX"		"15"
 
 		"pin_to_sibling"		"RedBG"
@@ -306,7 +306,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"HUDRedTeam"
+		"fgcolor"			"RedTeam"
 		"TextInsetX"		"20"
 
 		"pin_to_sibling"		"RedBG"
@@ -334,7 +334,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"HUDRedTeam"
+		"fgcolor"			"RedTeam"
 		"TextInsetX"		"20"
 
 		"pin_to_sibling"		"RedTeamName"
@@ -393,6 +393,12 @@
 		"pin_to_sibling"		"ServerBackground"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+
+		if_mvm
+		{
+			"font"				"FontRegular10"
+			"ypos"				"2"
+		}
 	}
 	"ServerTimeBackground"
 	{
@@ -540,7 +546,7 @@
 
 		if_mvm
 		{
-			"ypos"				"165"
+			"ypos"				"167"
 			"wide"				"270"
 			"tall"				"132"
 			"pin_to_sibling"		"mapname"
@@ -613,7 +619,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fov"				"13"
+		"fov"				"17"
 		"allow_rot"			"1"
 		"render_texture"	"0"
 		
@@ -706,6 +712,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fgcolor"			"TanLight"
+		"allcaps"			"1"
 
 		"pin_to_sibling"		"StatsBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"

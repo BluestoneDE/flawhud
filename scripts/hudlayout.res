@@ -1,29 +1,6 @@
 "Resource/HudLayout.res"
 {
 	//--------------------------------------------------------------
-	// HUD CROSSHAIR
-	//--------------------------------------------------------------
-	// Set visible and enabled to 1 to use.
-	// Change xpos and ypos values if not perfectly centered.
-	// Change labelText to the corresponding crosshair in TF2Crosshairs.png.
-	//--------------------------------------------------------------
-	"CustomCrosshair"
-	{
-		"visible"			"0"
-		"enabled"			"1"
-		"labelText"			"<"
-		"controlName"		"CExLabel"
-		"fieldName"			"CustomCrosshair"
-		"zpos"				"0"
-		"xpos"				"cs-0.5"
-		"ypos"				"cs-0.5"
-		"wide"				"f0"
-		"tall"				"f0"
-		"font"				"Size:18"
-		"textAlignment"		"center"
-		"fgcolor"			"Crosshair"
-	}
-	//--------------------------------------------------------------
 	// TRANSPARENT VIEWMODEL
 	//--------------------------------------------------------------
 	// Set visible/enabled to 1 to use.
@@ -61,7 +38,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c150"
-		"ypos"				"c120"
+		"ypos"				"c110"
 		"wide"				"110"
 		"tall"				"43"
 	}
@@ -111,7 +88,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c-55"
-		"ypos"				"r135"
+		"ypos"				"r127"
 		"wide"				"150"
 		"tall"				"60"
 	}
@@ -121,8 +98,8 @@
 		"fieldName"			"HudDemomanCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c150"
-		"ypos"				"c97"
+		"xpos"				"c-55"
+		"ypos"				"c136"
 		"zpos"				"1"
 		"wide"				"110"
 		"tall"				"10"
@@ -223,7 +200,7 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"c-195"
-		"ypos"					"c54"
+		"ypos"					"c44"
 		"wide"					"100"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -261,7 +238,7 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-126"
-		"ypos"					"c30"
+		"ypos"					"c20"
 		"wide"					"200"
 		"tall"					"50"
 		"priority"				"40"
@@ -273,7 +250,7 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-126"
-		"ypos"					"c60"
+		"ypos"					"c50"
 		"wide"					"200"
 		"tall"					"50"
 		"priority"				"40"
@@ -285,7 +262,7 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-126"
-		"ypos"					"c60"
+		"ypos"					"c50"
 		"wide"					"200"
 		"tall"					"50"
 		"priority"				"35"
@@ -353,7 +330,7 @@
 		"ControlName"			"CCurrencyStatusPanel"
 		"fieldName"				"CurrencyStatusPanel"
 		"xpos"					"c-250"
-		"ypos"					"r75"
+		"ypos"					"r85"
 		"wide"					"110"
 		"tall"					"20"
 		"visible" 				"1"
@@ -592,9 +569,9 @@
 		"fieldName" 		"HudCloseCaption"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"r150"
+		"xpos"				"r120"
 		"ypos"				"r300"
-		"wide"				"145"
+		"wide"				"115"
 		"tall"				"200"
 		"BgAlpha"			"128"
 		"GrowTime"			"0.25"
@@ -737,7 +714,7 @@
 		"dead_wide"			"14"
 		"dead_tall"			"14"
 		"show_voice_icon"	"1"
-		"icon_ypos"			"0"
+		"icon_ypos"			"2"
 		"icon_xpos"			"2"
 		"icon_tall"			"12"
 		"icon_wide"			"12"
@@ -746,7 +723,7 @@
 		"show_avatar"		"1"
 		"avatar_ypos"		"-1"
 		"avatar_xpos"		"115"
-		"avatar_tall"		"14"
+		"avatar_tall"		"17"
 		
 		"text_xpos_minmode"	"9999"
 	}
@@ -951,7 +928,7 @@
 		"fieldName" 		"HudMenuEngyBuild"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"xpos"				"c85"
+		"xpos"				"c140"
 		"ypos"				"c63"
 		"zpos"				"14"
 		"wide"				"125"
@@ -964,7 +941,7 @@
 		"fieldName" 		"HudMenuEngyDestroy"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"xpos"				"c85"
+		"xpos"				"c140"
 		"ypos"				"c63"
 		"zpos"				"14"
 		"wide"				"125"
@@ -990,10 +967,10 @@
 		"fieldName" 		"HudMenuSpyDisguise"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"xpos"				"c-97"
-		"ypos"				"c78"
+		"xpos"				"c100"
+		"ypos"				"c68"
 		"zpos"				"14"
-		"wide"				"195"
+		"wide"				"200"
 		"tall"				"f0"
 		"PaintBackgroundType"	"0"
 	}
@@ -1003,10 +980,10 @@
 		"fieldName"			"HudDemomanPipes"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"480"
+		"xpos"				"c-55"
+		"ypos"				"c124"
+		"wide"				"110"
+		"tall"				"20"
 	}
 
 	"HudTeamGoal"
@@ -1117,7 +1094,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c-320"
-		"ypos"				"70"
+		"ypos"				"50"
 		"wide"				"640"
 		"tall"				"100"
 	}
@@ -1184,11 +1161,11 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudAchievementTracker"
 		"xpos"				"5"
-		"NormalY"			"310"
+		"NormalY"			"275"
 		"EngineerY"			"310"
 		"zpos"				"-10"
 		"wide"				"f0"
-		"tall"				"100"
+		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
 	}

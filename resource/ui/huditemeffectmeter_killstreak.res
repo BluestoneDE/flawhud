@@ -7,17 +7,6 @@
 		"xpos"				"c-92"
 		"ypos"				"c30"
 	}
-	
-	"ItemEffectMeterLabel"
-	{
-		"visible"			"0"
-		"enabled"			"0"
-	}
-	
-	"ItemEffectMeterCount"
-	{
-		"xpos"				"20"
-	}
 
 	"StreakIcon"
 	{
