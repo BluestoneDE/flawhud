@@ -1,8 +1,8 @@
 <!-- TITLE -->
-![banner](https://user-images.githubusercontent.com/6818236/123499065-fba2e480-d601-11eb-96e4-e0879c7b2fbd.png)
+[![banner](https://user-images.githubusercontent.com/6818236/123499065-fba2e480-d601-11eb-96e4-e0879c7b2fbd.png)][download-link]
 <p align="center">
   <p align="center">
-    Custom HUD for Team Fortress 2, focusing on minimalistic design and dark themed colors.
+    <b>Forked</b> Custom HUD for Team Fortress 2, focusing on minimalistic design and dark themed colors.
     <br />
     <a href="https://github.com/CriticalFlaw/flawhud/issues">Issue Tracker</a>
     ·
@@ -39,7 +39,7 @@ If you need help, found a bug or have a suggestion; [open a support ticket on Gi
 * DimitriDR - French
 
 <!-- LINKS -->
-[download-link]: https://github.com/CriticalFlaw/flawhud/releases/latest
+[download-link]: https://github.com/BluestoneDE/flawhud/archive/refs/heads/develop.zip
 [mastercomfig-link]: https://mastercomfig.com/huds/page/flawhud/
 [tf2huds-link]: https://tf2huds.dev/hud/FlawHUD
 [wiki-link]: https://github.com/CriticalFlaw/flawhud/wiki
