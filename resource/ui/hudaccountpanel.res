@@ -38,18 +38,20 @@
 
 	"MetalIconShadow"
 	{
-		"ControlName"			"CIconPanel"
+		"ControlName"			"CExLabel"
 		"fieldName"				"MetalIconShadow"
-		"xpos"					"-2"
-		"ypos"					"-2"
+		"xpos"					"6"
+		"ypos"					"6"
 		"zpos"					"1"
-		"wide"					"10"
-		"tall"					"10"
+		"wide"					"25"
+		"tall"					"25"
 		"visible"				"1"
 		"enabled"				"1"
-		"scaleImage"			"1"
-		"icon"					"ico_metal"
-		"iconColor"				"Black"
+		"labelText"				"S"
+		"textAlignment"			"center"
+		"font"					"ScanlineIcons"
+		"fgcolor"				"Black"
+		"fgcolor_override"		"Black"
 		"pin_to_sibling"		"MetalIcon"
 	}
 
@@ -92,7 +94,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"FontBold22"
+		"font"					"ScanlineShadowSmall"
 		"fgcolor"				"Black"
 		"pin_to_sibling"		"AccountValue"
 	}

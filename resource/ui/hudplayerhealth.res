@@ -55,7 +55,7 @@
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"43"
-		"visible"		"1"		//Change to "0" to enable health cross
+		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"		"BGBlack"
 		"PaintBackgroundType"	"2"
@@ -131,8 +131,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerStatusAnchor"
-		"xpos"			"30"
-		"ypos"			"0"
+		"xpos"			"25"
+		"ypos"			"2"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"1"

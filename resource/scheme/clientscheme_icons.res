@@ -25,7 +25,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"SmallIcons"
 		{
 			"1"
@@ -47,6 +47,20 @@ Scheme
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
+			}
+		}
+
+		"ScanlineIcons"
+		{
+			"1"
+			{
+				"name"			"TF2Icons"
+				"tall"			"16"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+				"scanlines"		"2"
+				"blur"			"3"
 			}
 		}
 	}

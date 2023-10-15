@@ -4,8 +4,8 @@
 {
 	"HudItemEffectMeter"
 	{
-		"xpos"					"c150"
-		"ypos"					"r68"
+		"xpos"				"c-150"
+		"ypos"				"c102"
 	}
 
 	"ItemEffectIcon"

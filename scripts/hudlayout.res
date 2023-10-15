@@ -199,8 +199,8 @@
 	"CHealthAccountPanel"
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-195"
-		"ypos"					"c44"
+		"xpos"					"c-205"
+		"ypos"					"c78"
 		"wide"					"100"
 		"tall"  				"180"
 		"visible" 				"1"

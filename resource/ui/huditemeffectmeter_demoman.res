@@ -95,7 +95,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"FontBold18"
+		"font"					"ScanlineShadowSmaller"
 		"fgcolor"				"Black"
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
@@ -112,7 +112,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"K"
-		"textAlignment"			"east"
+		"textAlignment"			"center"
 		"font"					"SmallIcons"
 		"fgcolor_override"		"TanLight"
 	}
@@ -129,8 +129,8 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"K"
-		"textAlignment"			"east"
-		"font"					"SmallIcons"
+		"textAlignment"			"center"
+		"font"					"ScanlineIcons"
 		"fgcolor_override"		"Black"
 		"pin_to_sibling"		"StreakIcon"
 	}

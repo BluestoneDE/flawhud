@@ -71,7 +71,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CurrencyBadShadow"
-		"font"				"FontBold18"
+		"font"				"ScanlineShadowSmaller"
 		"fgcolor"			"Black"
 		"xpos"				"-2"
 		"ypos"				"-2"

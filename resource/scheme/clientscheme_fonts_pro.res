@@ -247,6 +247,19 @@ Scheme
 				"blur"			"3"
 			}
 		}
+		"ScanlineShadowSmaller"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-Bold"
+				"tall"			"18"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+				"scanlines"		"2"
+				"blur"			"3"
+			}
+		}
 
 		// DEFAULT
 		"Default"
