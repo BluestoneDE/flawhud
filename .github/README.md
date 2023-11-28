@@ -4,7 +4,7 @@
   <p align="center">
     <b>Forked</b> Custom HUD for Team Fortress 2, focusing on minimalistic design and dark themed colors.
     <br />
-    <a href="[https://github.com/BluestoneDE/flawhud/archive/refs/heads/develop.zip]">Download</a>
+    <a href="https://github.com/BluestoneDE/flawhud/archive/refs/heads/develop.zip">Download</a>
     ·
     <a href="https://github.com/CriticalFlaw/flawhud/issues">Issue Tracker</a>
     ·
