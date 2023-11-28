@@ -102,7 +102,7 @@
 		"ypos"				"c136"
 		"zpos"				"1"
 		"wide"				"110"
-		"tall"				"10"
+		"tall"				"60"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
 	}
@@ -954,8 +954,8 @@
 		"fieldName" 		"HudEurekaEffectTeleportMenu"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"xpos"				"c-75"
-		"ypos"				"c155"
+		"xpos"				"c130"
+		"ypos"				"c85"
 		"zpos"				"14"
 		"wide"				"150"
 		"tall"				"88"
@@ -1153,7 +1153,7 @@
 		"ypos"				"0"
 		"zpos"				"10"
 		"wide"				"f0"
-		"tall"				"50"
+		"tall"				"100"
 	}
 
 	"HudAchievementTracker"
