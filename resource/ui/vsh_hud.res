@@ -66,8 +66,8 @@
 			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/color_panel_red"
 				
 			"src_corner_height"		"23"
@@ -80,7 +80,7 @@
 		{
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"playerimage"
-			"xpos"			"12"
+			"xpos"			"3"
 			"ypos"			"11"
 			"zpos"			"3"
 			"wide"			"8"
@@ -114,8 +114,8 @@
 			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../vgui/replay/thinlineborder"
 				
 			"src_corner_height"		"23"
@@ -128,7 +128,7 @@
 		{
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"playerimage"
-			"xpos"			"9"
+			"xpos"			"6"
 			"ypos"			"11"
 			"zpos"			"3"
 			"wide"			"15"
@@ -167,7 +167,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"Image"			"vssaxtonhale/boss_bar_layer1"
+			"Image"			""
 			"scaleImage"	"1"					
 		}
 		
@@ -175,11 +175,11 @@
 		{
 			"fieldName"				"ProgressBarContainer"
 			"ControlName"			"EditablePanel"
-			"xpos"					"c-100"
-			"ypos"					"38"
+			"xpos"					"c-102"
+			"ypos"					"64"
 			"zpos"					"1"
-			"wide"					"183"
-			"tall"					"50"
+			"wide"					"190"
+			"tall"					"18"
 			"visible"				"1"
 			"enabled"				"1"
 			"proportionalToParent"	"1"
@@ -188,18 +188,35 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"BlueProgressBarFill"
-				"xpos"			"-10"
-				"ypos"			"16"
+				"xpos"			"-11"
+				"ypos"			"7"
 				"zpos"			"5"
-				"wide"			"218"
-				"tall"			"18"
+				"wide"			"226"
+				"tall"			"5"
 				"autoResize"	"1"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"scaleImage"	"0"	
+				"scaleImage"	"0"
+				"fillcolor"		"HudWhite"
 				"Image"			"vssaxtonhale/boss_bar"
+			}
+
+			"ProgressBarBG"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"			"Background"
+				"xpos"				"14"
+				"ypos"				"7"
+				"zpos"				"0"
+				"wide"				"176"
+				"tall"				"5"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"fillcolor"			"HudBlack"
 			}
 		}
 		
@@ -230,7 +247,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
-				"font"			"HudFontMediumSmallBold"
+				"font"			"FontBold18"
 				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
 			}	
@@ -248,7 +265,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
-				"font"			"HudFontMediumSmallBold"
+				"font"			"ScanlineShadowSmaller"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}

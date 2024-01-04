@@ -260,6 +260,19 @@ Scheme
 				"blur"			"3"
 			}
 		}
+		"ScanlineShadowTiny"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-Bold"
+				"tall"			"12"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+				"scanlines"		"2"
+				"blur"			"3"
+			}
+		}
 
 		// DEFAULT
 		"Default"
