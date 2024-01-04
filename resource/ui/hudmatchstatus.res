@@ -41,7 +41,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"FontBold22"
+		"font"			"ScanlineShadowSmall"
 		"xpos"			"cs-0.48"
 		"ypos"			"cs-0.48"
 		"wide"			"40"

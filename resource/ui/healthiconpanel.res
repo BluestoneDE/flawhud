@@ -28,5 +28,18 @@
 		"TFFont"		"HudFontSmall"
 		"TextColor"		"HudOffWhite"
 		"autoResize"	"1"
+
+		"TargetHealthValue"
+		{
+			"font"			"FontBold22"
+		}
+
+		"TargetHealthShadow"
+		{
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"font"			"ScanlineShadowSmall"
+			"fgcolor"		"Black"
+		}
 	}
 }
