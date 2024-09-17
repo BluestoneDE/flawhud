@@ -25,11 +25,11 @@
 		"tall"					"20"
 		"proportionaltoparent"	"1"
 		"labeltext"				"#TF_Matchmaking_HeaderModeSelect"
-		"textAlignment"			"west"
+		"textAlignment"			"center"
 		"font"					"HudFontMediumBold"
 		"fgcolor_override"		"TanLight"
 		"mouseinputenabled"		"0"
-		"wrap"					"1"
+		"visible"				"0"
 	}
 
 	"playlist"
@@ -37,7 +37,7 @@
 	//	"ControlName"			"CTFPlaylistPanel"
 		"fieldName"				"playlist"
 		"xpos"					"8"
-		"ypos"					"50"
+		"ypos"					"35"
 		"zpos"					"100"
 		"wide"					"255"
 		"tall"					"365"

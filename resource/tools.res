@@ -8,7 +8,7 @@
 		"ypos"				"130"
 		"zpos"				"200"
 		"wide"				"345"
-		"tall"				"230"
+		"tall"				"240"
 		"visible"			"0"
 		"paintbackground"	"1"
 		"paintborder"		"0"
@@ -52,7 +52,7 @@
 			"fieldName"			"MOTD_CloseButton"
 			"xpos"				"320"
 			"ypos"				"1"
-			"zpos"				"10"
+			"zpos"				"16"
 			"wide"				"20"
 			"tall"				"20"
 			"autoResize"		"0"
@@ -134,6 +134,8 @@
 			"xpos"					"9999"
 		}
 		
+		//---------------
+		
 		"ReloadScheme"
 		{
 			"ControlName"			"CExButton"
@@ -146,7 +148,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"labeltext"				"#FH_reload_hud"
-			"command"				"engine vgui_cache_res_files 0;hud_reloadscheme;toggle mat_aaquality"
+			"command"				"engine vgui_cache_res_files 0;hud_reloadscheme;toggle mat_aaquality;vgui_cache_res_files 1"
 			"actionsignallevel"		"2"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
@@ -157,6 +159,8 @@
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
+		
+		//---------------
 		
 		"ViewmodelLabel"
 		{
@@ -199,6 +203,8 @@
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 		
+		//---------------
+		
 		"SoundLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -240,6 +246,8 @@
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 		
+		//---------------
+		
 		"VoiceVolumeLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -280,11 +288,13 @@
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
-	
-		"StreamerMode"
+		
+		//---------------
+		
+		"StreamerModeToggle"
 		{
-			"ControlName"			"CExButton"
-			"fieldname"				"StreamerMode"
+			"ControlName"			"EditablePanel"
+			"fieldName"				"StreamerModeToggle"
 			"xpos"					"5"
 			"ypos"					"1"
 			"zpos"					"16"
@@ -292,145 +302,465 @@
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"#FH_streamer_mode"
-			"command"				"engine toggle cl_hud_minmode;toggle mat_aaquality"
-			"actionsignallevel"		"2"
-			"font"					"FontBold12"
-			"textAlignment"			"center"
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 			
 			"pin_to_sibling"		"ReloadScheme"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
+			
+			"StreamerModeButton"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"StreamerModeButton"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						""
+				"command"						"engine toggle cl_hud_minmode;toggle mat_aaquality"
+				"actionsignallevel"				"3"
+				"paintbackground"				"0"
+				"font"							"FontBold12"
+				"textAlignment"					"center"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+			}
+			
+			"StreamerModeCheckbox"
+			{
+				"ControlName"					"CvarToggleCheckButton"
+				"fieldName"						"StreamerModeCheckbox"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"proportionaltoparent"			"1"
+				"font"							"FontBold12"
+				"labeltext"						"#FH_streamer_mode"
+				"textAlignment"					"west"
+				"smallcheckimage"				"1"
+				"button_activation_type"		"1"
+				"cvar_name"						"cl_hud_minmode"
+				"mouseinputenabled"				"0"
+			}
 		}
 		
-		"CaptionsToggle"
+		//---------------
+		
+		"MatchHudToggle"
 		{
-			"ControlName"			"CExButton"
-			"fieldname"				"CaptionsToggle"
+			"ControlName"			"EditablePanel"
+			"fieldName"				"MatchHudToggle"
 			"xpos"					"0"
-			"ypos"					"6"
+			"ypos"					"0"
 			"zpos"					"16"
 			"wide"					"150"
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"#FH_toggle_captions"
-			"command"				"engine toggle closecaption"
-			"actionsignallevel"		"2"
-			"font"					"FontBold12"
-			"textAlignment"			"center"
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 			
-			"pin_to_sibling"		"StreamerMode"
+			"pin_to_sibling"		"StreamerModeToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+			
+			"MatchHudButton"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"MatchHudButton"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						""
+				"command"						"engine toggle tf_use_match_hud"
+				"actionsignallevel"				"3"
+				"paintbackground"				"0"
+				"font"							"FontBold12"
+				"textAlignment"					"center"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+			}
+			
+			"MatchHudCheckbox"
+			{
+				"ControlName"					"CvarToggleCheckButton"
+				"fieldName"						"MatchHudCheckbox"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"proportionaltoparent"			"1"
+				"font"							"FontBold12"
+				"labeltext"						"#FH_toggle_match_hud"
+				"textAlignment"					"west"
+				"smallcheckimage"				"1"
+				"button_activation_type"		"1"
+				"cvar_name"						"tf_use_match_hud"
+				"mouseinputenabled"				"0"
+			}
 		}
 		
-		"MatchStatusToggle"
-		{
-			"ControlName"			"CExButton"
-			"fieldname"				"MatchStatusToggle"
-			"xpos"					"0"
-			"ypos"					"6"
-			"zpos"					"16"
-			"wide"					"150"
-			"tall"					"26"
-			"visible"				"1"
-			"enabled"				"1"
-			"labeltext"				"#FH_toggle_match_hud"
-			"command"				"engine toggle tf_use_match_hud"
-			"actionsignallevel"		"2"
-			"font"					"FontBold12"
-			"textAlignment"			"center"
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-			
-			"pin_to_sibling"		"CaptionsToggle"
-			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-		}
+		//---------------
 		
 		"NetgraphToggle"
 		{
-			"ControlName"			"CExButton"
-			"fieldname"				"NetgraphToggle"
+			"ControlName"			"EditablePanel"
+			"fieldName"				"NetgraphToggle"
 			"xpos"					"0"
-			"ypos"					"6"
+			"ypos"					"0"
 			"zpos"					"16"
 			"wide"					"150"
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"#FH_toggle_netgraph"
-			"command"				"engine toggle net_graph"
-			"actionsignallevel"		"2"
-			"font"					"FontBold12"
-			"textAlignment"			"center"
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 			
-			"pin_to_sibling"		"MatchStatusToggle"
+			"pin_to_sibling"		"MatchHudToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+			
+			"NetgraphButton"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"NetgraphButton"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						""
+				"command"						"engine toggle net_graph"
+				"actionsignallevel"				"3"
+				"paintbackground"				"0"
+				"font"							"FontBold12"
+				"textAlignment"					"center"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+			}
+			
+			"NetgraphCheckbox"
+			{
+				"ControlName"					"CvarToggleCheckButton"
+				"fieldName"						"NetgraphCheckbox"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"proportionaltoparent"			"1"
+				"font"							"FontBold12"
+				"labeltext"						"#FH_toggle_netgraph"
+				"textAlignment"					"west"
+				"smallcheckimage"				"1"
+				"button_activation_type"		"1"
+				"cvar_name"						"net_graph"
+				"mouseinputenabled"				"0"
+			}
 		}
+		
+		//---------------
 		
 		"ChatToggle"
 		{
-			"ControlName"			"CExButton"
-			"fieldname"				"ChatToggle"
+			"ControlName"			"EditablePanel"
+			"fieldName"				"ChatToggle"
 			"xpos"					"0"
-			"ypos"					"6"
+			"ypos"					"0"
 			"zpos"					"16"
 			"wide"					"150"
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"#FH_toggle_chat"
-			"command"				"engine toggle hud_saytext_time 10 0"
-			"actionsignallevel"		"2"
-			"font"					"FontBold12"
-			"textAlignment"			"center"
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 			
 			"pin_to_sibling"		"NetgraphToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+			
+			"ChatButton"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"ChatButton"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						""
+				"command"						"engine toggle hud_saytext_time 10 0"
+				"actionsignallevel"				"3"
+				"paintbackground"				"0"
+				"font"							"FontBold12"
+				"textAlignment"					"center"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+			}
+			
+			"ChatCheckbox"
+			{
+				"ControlName"					"CvarToggleCheckButton"
+				"fieldName"						"ChatCheckbox"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"proportionaltoparent"			"1"
+				"font"							"FontBold12"
+				"labeltext"						"#FH_toggle_chat"
+				"textAlignment"					"west"
+				"smallcheckimage"				"1"
+				"button_activation_type"		"1"
+				"cvar_name"						"hud_saytext_time"
+				"mouseinputenabled"				"0"
+			}
 		}
+		
+		//---------------
 		
 		"MinViewmodelToggle"
 		{
-			"ControlName"			"CExButton"
-			"fieldname"				"MinViewmodelToggle"
+			"ControlName"			"EditablePanel"
+			"fieldName"				"MinViewmodelToggle"
 			"xpos"					"0"
-			"ypos"					"6"
+			"ypos"					"0"
 			"zpos"					"16"
 			"wide"					"150"
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"#FH_viewmodel_min"
-			"command"				"engine toggle tf_use_min_viewmodels 1 0"
-			"actionsignallevel"		"2"
-			"font"					"FontBold12"
-			"textAlignment"			"center"
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 			
 			"pin_to_sibling"		"ChatToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+			
+			"MinViewmodelButton"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"MinViewmodelButton"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						""
+				"command"						"engine toggle tf_use_min_viewmodels"
+				"actionsignallevel"				"3"
+				"paintbackground"				"0"
+				"font"							"FontBold12"
+				"textAlignment"					"center"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+			}
+			
+			"MinViewmodelCheckbox"
+			{
+				"ControlName"					"CvarToggleCheckButton"
+				"fieldName"						"MinViewmodelCheckbox"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"proportionaltoparent"			"1"
+				"font"							"FontBold12"
+				"labeltext"						"#FH_viewmodel_min"
+				"textAlignment"					"west"
+				"smallcheckimage"				"1"
+				"button_activation_type"		"1"
+				"cvar_name"						"tf_use_min_viewmodels"
+				"mouseinputenabled"				"0"
+			}
 		}
+		
+		//---------------
+		
+		"AutoStartToggle"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldName"					"AutoStartToggle"
+			"xpos"						"0"
+			"ypos"						"0"
+			"zpos"						"16"
+			"wide"						"180"
+			"tall"						"26"
+			"visible"					"0"
+			"enabled"					"0"
+			"proportionaltoparent"		"1"
+			
+			"pin_to_sibling"			"MinViewmodelToggle"
+			"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+			
+			"AutoStartButton"
+			{
+				"controlName"				"CExButton"
+				"fieldName"					"AutoStartButton"
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"180"
+				"tall"						"26"
+				"visible"					"1"
+				"enabled"					"1"
+				"labelText"					""
+				"command"					"engine toggle hud_qp_autostart"
+				"actionsignallevel"			"3"
+				"paintbackground"			"0"
+				"font"						"FontBold12"
+				"textAlignment"				"center"
+				"sound_depressed"			"UI/buttonclick.wav"
+				"sound_released"			"UI/buttonclickrelease.wav"
+			}
+			
+			"AutoStartCheckbox"
+			{
+				"ControlName"				"CvarToggleCheckButton"
+				"fieldName"					"AutoStartCheckbox"
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"180"
+				"tall"						"26"
+				"proportionaltoparent"		"1"
+				"font"						"FontBold12"
+				"labeltext"					"Quickplay: Auto-Start"
+				"textAlignment"				"west"
+				"smallcheckimage"			"1"
+				"button_activation_type"	"1"
+				"cvar_name"					"hud_qp_autostart"
+				"mouseinputenabled"			"0"
+			}
+		}
+		
+		//---------------
+		
+		"NoConnectToggle"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldName"					"NoConnectToggle"
+			"xpos"						"0"
+			"ypos"						"0"
+			"zpos"						"16"
+			"wide"						"180"
+			"tall"						"26"
+			"visible"					"0"
+			"enabled"					"0"
+			"proportionaltoparent"		"1"
+			
+			"pin_to_sibling"			"AutoStartToggle"
+			"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+			
+			"NoConnectButton"
+			{
+				"controlName"				"CExButton"
+				"fieldName"					"NoConnectButton"
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"180"
+				"tall"						"26"
+				"visible"					"1"
+				"enabled"					"1"
+				"labelText"					""
+				"command"					"engine toggle hud_qp_noconnect"
+				"actionsignallevel"			"3"
+				"paintbackground"			"0"
+				"font"						"FontBold12"
+				"textAlignment"				"center"
+				"sound_depressed"			"UI/buttonclick.wav"
+				"sound_released"			"UI/buttonclickrelease.wav"
+			}
+			
+			"NoConnectCheckbox"
+			{
+				"ControlName"				"CvarToggleCheckButton"
+				"fieldName"					"NoConnectCheckbox"
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"180"
+				"tall"						"26"
+				"proportionaltoparent"		"1"
+				"font"						"FontBold12"
+				"labeltext"					"Quickplay: No Connect"
+				"textAlignment"				"west"
+				"smallcheckimage"			"1"
+				"button_activation_type"	"1"
+				"cvar_name"					"hud_qp_noconnect"
+				"mouseinputenabled"			"0"
+			}
+		}
+		
+		//---------------
+		
+		"AutoCloseToggle"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldName"					"AutoCloseToggle"
+			"xpos"						"0"
+			"ypos"						"0"
+			"zpos"						"16"
+			"wide"						"180"
+			"tall"						"26"
+			"visible"					"0"
+			"enabled"					"0"
+			"proportionaltoparent"		"1"
+			
+			"pin_to_sibling"			"NoConnectToggle"
+			"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+			
+			"AutoCloseButton"
+			{
+				"controlName"				"CExButton"
+				"fieldName"					"AutoCloseButton"
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"180"
+				"tall"						"26"
+				"visible"					"1"
+				"enabled"					"1"
+				"labelText"					""
+				"command"					"engine toggle hud_qp_autoclose"
+				"actionsignallevel"			"3"
+				"paintbackground"			"0"
+				"font"						"FontBold12"
+				"textAlignment"				"center"
+				"sound_depressed"			"UI/buttonclick.wav"
+				"sound_released"			"UI/buttonclickrelease.wav"
+			}
+			
+			"AutoCloseCheckbox"
+			{
+				"ControlName"				"CvarToggleCheckButton"
+				"fieldName"					"AutoCloseCheckbox"
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"180"
+				"tall"						"26"
+				"proportionaltoparent"		"1"
+				"font"						"FontBold12"
+				"labeltext"					"Quickplay: Auto-Close"
+				"textAlignment"				"west"
+				"smallcheckimage"			"1"
+				"button_activation_type"	"1"
+				"cvar_name"					"hud_qp_autoclose"
+				"mouseinputenabled"			"0"
+			}
+		}
+		
+		//---------------
 		
 		"DamageLabel"
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"DamageLabel"
 			"xpos"					"0"
-			"ypos"					"5"
+			"ypos"					"3"
 			"wide"					"150"
 			"tall"					"11"
 			"autoResize"			"0"
