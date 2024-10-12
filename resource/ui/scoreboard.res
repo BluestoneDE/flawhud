@@ -13,15 +13,16 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"medal_width"		"25"
-		"avatar_width"		"55"
+		"medal_width"		"28"
+		"medal_column_width" "18"
+		"avatar_width"		"28"
 		"spacer"			"5"
 		"name_width"		"140"
-		"nemesis_width"		"20"
-		"class_width"		"20"
+		"nemesis_width"		"15"
+		"class_width"		"15"
 		"score_width"		"25"
-		"ping_width"		"25"
-		"killstreak_width"	"15"
+		"ping_width"		"15"
+		"killstreak_width"	"18"
 		"killstreak_image_width" "15"
 		"medal_width_minmode"	 "0"
 	}
@@ -611,26 +612,26 @@
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"			"classmodelpanel"
 		"xpos"				"0"
-		"ypos"				"r300"
+		"ypos"				"r200"
 		"zpos"				"2"
 		"wide"				"150"
-		"tall"				"300"
+		"tall"				"200"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fov"				"17"
+		"fov"				"23"
 		"allow_rot"			"1"
 		"render_texture"	"0"
-		
+
 		"model"
 		{
 			"force_pos"			"1"
 			"angles_x" 			"0"
-			"angles_y" 			"200"
+			"angles_y" 			"165"
 			"angles_z" 			"0"
 			"origin_x" 			"200"
-			"origin_y" 			"2"
+			"origin_y" 			"0"
 			"origin_z" 			"-80"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
@@ -2290,36 +2291,6 @@
 		}
 	}
 	
-	"DrawingBoardRight"
-	{
-		"ControlName"	"EditablePanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1000"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"paintBorder"	"1"
-		"border"		"NoBorder"
-		"proportionaltoparent"	"1"
-		
-		"pin_to_sibling"			"RedBG"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		
-		"Draw"
-		{
-			"ControlName"		"CDrawingPanel"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"f0"
-			"tall"				"f0"
-			"linecolor"			"TanLight"
-			"bgcolor_override"	"Transparent"
-			"proportionaltoparent"	"1"
-		}
-	}
-	
 	"DrawingBoardDown"
 	{
 		"ControlName"	"EditablePanel"
@@ -2350,7 +2321,7 @@
 		}
 	}
 	
-	"DrawingBoardLeft"
+	"DrawingBoardTop"
 	{
 		"ControlName"	"EditablePanel"
 		"xpos"			"0"
@@ -2363,9 +2334,9 @@
 		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 		
-		"pin_to_sibling"			"BlueBG"
-		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"		"PIN_TOPLEFT"
+		"pin_to_sibling"			"RedBG"
+		"pin_corner_to_sibling"		"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		
 		"Draw"
 		{
@@ -2380,7 +2351,7 @@
 		}
 	}
 	
-	"DrawingBoardTop"
+	"DrawingBoardRight"
 	{
 		"ControlName"	"EditablePanel"
 		"xpos"			"0"
@@ -2393,7 +2364,37 @@
 		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 		
-		"pin_to_sibling"			"DrawingBoardRight"
+		"pin_to_sibling"			"StatsBG"
+		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
+		
+		"Draw"
+		{
+			"ControlName"		"CDrawingPanel"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"f0"
+			"tall"				"f0"
+			"linecolor"			"TanLight"
+			"bgcolor_override"	"Transparent"
+			"proportionaltoparent"	"1"
+		}
+	}
+	
+	"DrawingBoardLeft"
+	{
+		"ControlName"	"EditablePanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1000"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"paintBorder"	"1"
+		"border"		"NoBorder"
+		"proportionaltoparent"	"1"
+		
+		"pin_to_sibling"			"classmodelpanel"
 		"pin_corner_to_sibling"		"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		
