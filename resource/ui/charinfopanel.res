@@ -59,6 +59,15 @@
 		"fillcolor"			"27 27 27 200"
 		"tileImage"			"1"
 	}
+	"BackgroundHeader0"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BackgroundHeader0"
+		"zpos"				"-3"
+		"wide"				"f0"
+		"tall"				"120"
+		"fillcolor"			"0 0 0"
+	}
 
 	"BackgroundFooter"
 	{
