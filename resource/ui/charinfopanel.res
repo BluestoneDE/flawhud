@@ -59,22 +59,12 @@
 		"fillcolor"			"27 27 27 200"
 		"tileImage"			"1"
 	}
-	"BackgroundHeader0"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BackgroundHeader0"
-		"zpos"				"-3"
-		"wide"				"f0"
-		"tall"				"120"
-		"fillcolor"			"0 0 0"
-	}
-
 	"BackgroundFooter"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"BackgroundFooter"
 		"xpos"				"0"
-		"ypos"				"430"
+		"ypos"				"423"
 		"zpos"				"0"
 		"wide"				"f0"
 		"tall"				"60"
@@ -88,10 +78,10 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"BackgroundFooter2"
 		"xpos"				"0"
-		"ypos"				"430"
+		"ypos"				"423"
 		"zpos"				"1"
 		"wide"				"f0"
-		"tall"				"60"
+		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"			"27 27 27 200"
@@ -115,7 +105,7 @@
 		"tabwidth"			"240"
 		"tabheight"			"25"
 		"transition_time" 	"0"
-		"yoffset"			"20"
+		"yoffset"			"14"
 
 		"HeaderLine"
 		{
@@ -153,7 +143,7 @@
 		"ControlName"		"CExButton"
 		"fieldName"			"BackButton"
 		"xpos"				"100"
-		"ypos"				"440"
+		"ypos"				"437"
 		"zpos"				"2"
 		"wide"				"150"
 		"tall"				"30"
