@@ -135,6 +135,8 @@
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
+
+		"keyboardinputenabled"		"0"
 	}
 	
 	"teambutton1"
@@ -171,6 +173,8 @@
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
+
+		"keyboardinputenabled"		"0"
 	}
 
 	"teambutton2"
@@ -207,6 +211,8 @@
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
+
+		"keyboardinputenabled"		"0"
 	}
 
 	"teambutton3"
@@ -243,6 +249,8 @@
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
+
+		"keyboardinputenabled"		"0"
 	}
 
 	"MenuBG"

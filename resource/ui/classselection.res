@@ -673,7 +673,9 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		"sound_armed"				"UI/buttonrollover.wav"
-		
+
+		"keyboardinputenabled"		"0"
+
 		"pin_to_sibling"			"spy"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
@@ -713,7 +715,9 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		"sound_armed"				"UI/buttonrollover.wav"
-		
+
+		"keyboardinputenabled"		"0"
+
 		"pin_to_sibling"			"random2"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
@@ -753,7 +757,9 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		"sound_armed"				"UI/buttonrollover.wav"
-		
+
+		"keyboardinputenabled"		"0"
+
 		"pin_to_sibling"			"EditLoadoutButton"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
