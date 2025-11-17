@@ -47,7 +47,7 @@
 	"alivecounter"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"aivecounter"
+		"fieldName"		"alivecounter"
 		"xpos"			"c-30"
 		"ypos"			"r90"
 		"zpos"			"-10"
@@ -114,9 +114,9 @@
 			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"../vgui/replay/thinlineborder"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thinlineborder"
 				
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
@@ -127,8 +127,8 @@
 		"dmg_icon"
 		{
 			"ControlName"	"ImagePanel"		
-			"fieldName"		"playerimage"
-			"xpos"			"6"
+			"fieldName"		"dmg_icon"
+			"xpos"			"9"
 			"ypos"			"11"
 			"zpos"			"3"
 			"wide"			"15"

@@ -1,26 +1,8 @@
-"Resource/HudLayout.res"
-{
-	//--------------------------------------------------------------
-	// TRANSPARENT VIEWMODEL
-	//--------------------------------------------------------------
-	// Set visible/enabled to 1 to use.
-	//--------------------------------------------------------------
-	"TransparentViewmodel"
-	{
-		"visible"			"1"
-		"enabled"			"1"
-		"controlName"		"ImagePanel"
-		"fieldName"			"TransparentViewmodel"
-		"zpos"				"-100"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"480"
-		"image"				"replay/thumbnails/transparent"
-		"scaleImage"		"1"
-	}
-	//--------------------------------------------------------------
+#base "../resource/ui/customizations/#customization_menu/hud_customization_layout.res"
+#base "../resource/ui/customizations/killfeed/killfeed.res"
 
+"Scripts/HudLayout.res"
+{
 	"HudPlayerStatus"
 	{
 		"fieldName"			"HudPlayerStatus"
@@ -145,7 +127,7 @@
 		"zpos"				"0"
 		"wide"				"200"
 		"tall"				"50"
-		"MeterFG"			"Red"
+		"MeterFG"			"TeamRed"
 		"MeterBG"			"Gray"
 	}
 
@@ -378,7 +360,7 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
-		"IconColor"				"Hostage_Yellow"
+		"IconColor"				"Yellow"
 	}
 
 	"HudFlashlight"
@@ -456,31 +438,6 @@
 		"enabled" 				"1"
 		"wide"	 				"640"
 		"tall"	 				"480"
-	}
-
-	"HudDeathNotice"
-	{
-		"fieldName" 			"HudDeathNotice"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"xpos"	 				"r635"
-		"ypos"	 				"25"
-		"wide"	 				"628"
-		"tall"	 				"468"
-		"MaxDeathNotices"		"5"
-		"IconScale"				"0.35"
-		"LineHeight"			"15"
-		"LineSpacing"			"0"
-		"CornerRadius"			"3"
-		"RightJustify"			"1"
-		"TextFont"				"FontRegular10"
-		"TextFont_minmode"		""
-		"TeamBlue"				"HUDBlueTeamSolid"
-		"TeamRed"				"HUDRedTeamSolid"
-		"IconColor"				"White"
-		"LocalPlayerColor"		"Black"
-		"BaseBackgroundColor"	"32 32 32 255"
-		"LocalBackgroundColor"	"245 229 196 200"
 	}
 
 	"HudVehicle"
