@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/#Customization_Menu/hud_customization_fonts.res"
+"resource/ui/customizations/#customization_menu/hud_customization_fonts.res"
 {
 	"SafeMode"
 	{
@@ -45,7 +45,7 @@
 					"xpos"								"0"
 					"ypos"								"0"
 					"zpos"								"0"
-					"wide"								"20"
+					"wide"								"25"
 					"tall"								"25"
 					"visible"							"1"
 					"enabled"							"1"
@@ -89,7 +89,7 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"labelText"							"."
-					"font"								"MediumIcons"
+					"font"								"MediumSmallIcons"
 					"textAlignment"						"center"
 					"FGColor"							"LightRed"
 

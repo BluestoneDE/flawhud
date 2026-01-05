@@ -3,7 +3,7 @@
 //#base "../links.res"
 #base "customizations/#customization_menu/hud_customization.res"
 
-"Resource/UI/MainMenuOverride.res"
+"resource/ui/mainmenuoverride.res"
 {
 	"MainMenuOverride"
 	{
@@ -265,7 +265,7 @@
 		"fieldName"		"CycleRankTypeButton"
 		"xpos"			"-2"
 		"ypos"			"0"
-		"wide"			"15"
+		"wide"			"20"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -449,7 +449,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"Notifications_ShowButtonPanel"
 		"xpos"				"-10"
-		"ypos"				"0"
+		"ypos"				"5"
 		"zpos"				"0"
 		"wide"				"20"
 		"tall"				"20"
@@ -1092,7 +1092,7 @@
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"labeltext"			"("
-			"font"				"MediumIcons"
+			"font"				"MediumSmallIcons"
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
