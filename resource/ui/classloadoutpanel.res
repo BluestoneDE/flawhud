@@ -19,7 +19,7 @@
 		"outoffocus_bgcolor_override"	"DarkGrey"
 
 		"item_xpos_offcenter_a"			"60"
-		"item_xpos_offcenter_b"			"188"
+		"item_xpos_offcenter_b"			"218"
 		"item_ypos"						"60"
 		"item_ydelta"					"75"
 		"item_mod_wide"					"40"
@@ -162,10 +162,10 @@
 	{
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"			"classmodelpanel"
-		"xpos"				"100"
+		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"1"
-		"wide"				"400"
+		"zpos"				"-1"
+		"wide"				"f0"
 		"tall"				"f4"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -185,8 +185,8 @@
 			"angles_x" 			"0"
 			"angles_y" 			"170"
 			"angles_z" 			"0"
-			"origin_x" 			"280"
-			"origin_y" 			"15"
+			"origin_x" 			"360"
+			"origin_y" 			"50"
 			"origin_z" 			"-32"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
@@ -207,8 +207,8 @@
 				"angles_y" 		"170"
 				"angles_z" 		"0"
 				
-				"origin_x"		"180"
-				"origin_y"		"10"
+				"origin_x"		"360"
+				"origin_y"		"50"
 				"origin_z"		"-29"
 			}
 			"Sniper"
@@ -218,9 +218,9 @@
 				"angles_y" 		"170"
 				"angles_z" 		"0"
 				
-				"origin_x"		"180"
-				"origin_y"		"10"
-				"origin_z"		"-33"
+				"origin_x"		"360"
+				"origin_y"		"50"
+				"origin_z"		"-31.5"
 			}
 			"Soldier"
 			{
@@ -229,9 +229,9 @@
 				"angles_y" 		"170"
 				"angles_z" 		"0"
 				
-				"origin_x"		"180"
-				"origin_y"		"10"
-				"origin_z"		"-34"
+				"origin_x"		"360"
+				"origin_y"		"50"
+				"origin_z"		"-32"
 			}
 			"Demoman"
 			{
@@ -240,9 +240,9 @@
 				"angles_y" 		"170"
 				"angles_z" 		"0"
 				
-				"origin_x"		"180"
-				"origin_y"		"10"
-				"origin_z"		"-33"
+				"origin_x"		"360"
+				"origin_y"		"50"
+				"origin_z"		"-31.5"
 			}
 			"Medic"
 			{
@@ -251,9 +251,9 @@
 				"angles_y" 		"170"
 				"angles_z" 		"0"
 				
-				"origin_x"		"180"
-				"origin_y"		"10"
-				"origin_z"		"-33"
+				"origin_x"		"360"
+				"origin_y"		"50"
+				"origin_z"		"-31.5"
 			}
 			"Heavy"
 			{
@@ -262,9 +262,9 @@
 				"angles_y" 		"170"
 				"angles_z" 		"0"
 				
-				"origin_x"		"180"
-				"origin_y"		"10"
-				"origin_z"		"-36"
+				"origin_x"		"360"
+				"origin_y"		"50"
+				"origin_z"		"-34"
 			}
 			"Pyro"
 			{
@@ -273,9 +273,9 @@
 				"angles_y" 		"170"
 				"angles_z" 		"0"
 				
-				"origin_x"		"180"
-				"origin_y"		"10"
-				"origin_z"		"-33"
+				"origin_x"		"360"
+				"origin_y"		"50"
+				"origin_z"		"-32"
 			}
 			"Spy"
 			{
@@ -284,9 +284,9 @@
 				"angles_y" 		"170"
 				"angles_z" 		"0"
 				
-				"origin_x"		"180"
-				"origin_y"		"0"
-				"origin_z"		"-33"
+				"origin_x"		"360"
+				"origin_y"		"50"
+				"origin_z"		"-32"
 			}
 			"Engineer"
 			{
@@ -295,9 +295,9 @@
 				"angles_y" 		"170"
 				"angles_z" 		"0"
 				
-				"origin_x"		"180"
-				"origin_y"		"10"
-				"origin_z"		"-33"
+				"origin_x"		"360"
+				"origin_y"		"50"
+				"origin_z"		"-31.5"
 			}
 		}
 	}
