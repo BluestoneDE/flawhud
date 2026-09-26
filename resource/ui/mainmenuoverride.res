@@ -2,6 +2,7 @@
 #base "../tools.res"
 //#base "../links.res"
 #base "customizations/#customization_menu/hud_customization.res"
+#base "vguipreload.res"
 
 "resource/ui/mainmenuoverride.res"
 {
@@ -506,7 +507,8 @@
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"armedFgColor_override"		"218 165 32 255"
+			"defaultFgColor_override"	"255 190 25 255"
+			"armedFgColor_override"		"202 153 27 255"
 		}
 	}
 
@@ -1290,12 +1292,12 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"VersionLabel"
 		"font"				"FontRegular12"
-		"labelText"			"FlawHUD v2025.1020c"
+		"labelText"			"FlawHUD v2026.0110c"
 		"labelText_minmode"	"#FH_streamer_mode_active"
-		"xpos"				"rs1-5"
+		"xpos"				"f0"
 		"ypos"				"r13"
 		"zpos"				"1"
-		"wide"				"130"
+		"wide"				"f0"
 		"tall"				"10"
 		"autoResize"		"0"
 		"pinCorner"			"0"
