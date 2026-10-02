@@ -53,7 +53,7 @@
 			"ypos"			"cs-0.5"
 			"zpos"			"0"
 			"wide"			"120"
-			"tall"			"60"
+			"tall"			"70"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -82,7 +82,7 @@
 				"angles_z"		"0"
 				"origin_x"		"45"
 				"origin_y"		"0"
-				"origin_z"		"0"
+				"origin_z"		"-1"
 				"spotlight"		"1"
 
 				if_mini
