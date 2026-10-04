@@ -155,6 +155,8 @@ Scheme
 
 		FrameBorder
 		{
+			"backgroundtype" "0"
+
 			Left
 			{
 				"1"

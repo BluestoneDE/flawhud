@@ -399,7 +399,7 @@
 			"labelText"									"Open Console"
 			"font"										"HudFontSmallBold"
 			"textAlignment"								"center"
-			"command"									"engine toggleconsole"
+			"command"									"engine toggleconsole; hud_menu_close"
 			"actionsignallevel"							"2"
 			"RoundedCorners"							"0"
 			"sound_depressed"							"UI/buttonclick.wav"

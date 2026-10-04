@@ -605,7 +605,7 @@
 		"tall"			"20"
 		"visible"		"1"
 
-		"pin_to_sibling"			"ShowToolsButton"
+		"pin_to_sibling"			"QuestLogButton"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 
@@ -647,7 +647,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"pin_to_sibling"			"MOTD_ShowButtonPanel"
+		"pin_to_sibling"			"ShowToolsButton"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 
@@ -688,7 +688,7 @@
 		"tall"			"20"
 		"visible"		"1"
 
-		"pin_to_sibling"			"QuestLogButton"
+		"pin_to_sibling"			"MOTD_ShowButtonPanel"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 
