@@ -2,7 +2,7 @@
 
   [![banner](https://github.com/CriticalFlaw/flawhud/assets/6818236/5a1c39df-a98c-44fd-81f3-f2bb64c8f1d7)](https://github.com/BluestoneDE/flawhud/archive/develop.zip)
 
-  <i><b>Forked</b> Custom heads-up display for Team Fortress 2 with a focus on dark themed colors.</i>
+  <i><b>Forked</b> heads-up display for Team Fortress 2 with a focus on dark themed colors.</i>
   
   [![Download](https://img.shields.io/badge/-Download-1B2838?logo=github&logoColor=white)](https://github.com/BluestoneDE/flawhud/archive/develop.zip)
   [![Credits](https://img.shields.io/badge/-Credits-512BD4?logo=readme&logoColor=white)](https://github.com/CriticalFlaw/flawhud/wiki/Credits)
